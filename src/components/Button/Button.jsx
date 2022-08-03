@@ -1,9 +1,8 @@
 import "./button.css"
 
 function Button({text, type}) {
-
     const btnstyle = {
-        backgroundcolor: type === "alert"? "red":"green",
+        backgroundColor: type === "alert"? "red":"green",
         }
 
   return (
