@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import './Card.css';
 
 function Card(props){
@@ -14,7 +15,7 @@ function Card(props){
               {props.data.description}
             </p>
             <h3>{props.data.price}</h3>
-            <button>Ver más</button>
+            <Button type="alert" text="Ver más"/>
           </div>
         </div>
       </div>

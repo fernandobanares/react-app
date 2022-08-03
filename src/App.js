@@ -1,6 +1,8 @@
 import './App.css';
-import NavBar from './components/NavBar.jsx';
+import NavBar from './components/NavBar/NavBar.jsx';
 import Card from './components/Card/Card';
+import Button from './components/Button/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -41,7 +43,7 @@ const dataProducts = [{
       <h1 className='title'>Coderhouse React 34710</h1>
       <p style={styles}>{usuario}</p>
       <br />
-      <button onClick={() => alert('Click vent callback')}>Click Me</button>
+      <Button type="info" text="Click me"/>
       <Card data={dataProducts[0]} />
       <Card data={dataProducts[1]} />
     </div>
